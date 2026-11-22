@@ -13,7 +13,23 @@ ERD Diagram of Witle Online Retail System - Understanding the relationships and 
 Cardinality answers: How many of this can relate to how many of that? It is the numbers on the line between two tables. We read it from left to right, then right to left.1.1 One-to-One (1:1).
 
 # 2 ENTITIES & ATTRIBUTES AT A GLANCE
-Every entity has a Primary Key (PK). Every relationship has a Foreign Key (FK).Customer - PK: customer_id - FK: -
+
+The 9 entities:
+
+*1. Customer* - CustomerID (PK), Full Name, Email (unique), Phone, Date Registered
+*2. Address* - AddressID (PK), CustomerID (FK), Street, City, Postal Code
+*3. Category* - CategoryID (PK), Category Name
+*4. Supplier* - SupplierID (PK), Supplier Name, Contact, Email
+*5. Product* - ProductID (PK), Name, Description, Price, Stock, CategoryID (FK), SupplierID (FK)
+*6. Order* - OrderID (PK), CustomerID (FK), Order Date, Status, Total Amount
+*7. OrderItem* - OrderID (FK) + ProductID (FK) together as PK, Quantity, Unit Price
+*8. Payment* - PaymentID (PK), OrderID (FK unique), Payment Date, Method, Status, Amount Paid
+*9. Delivery* - DeliveryID (PK), OrderID (FK unique), AddressID (FK), Delivery Date, Status, Courier, Tracking No
+
+Every entity has a Primary Key (PK). 
+Every relationship has a Foreign Key (FK).
+
+Customer - PK: customer_id - FK: -
 Delivery_Address - PK: address_id - FK: customer_id
 Category - PK: category_id - FK: -
 Supplier - PK: supplier_id - FK: -
