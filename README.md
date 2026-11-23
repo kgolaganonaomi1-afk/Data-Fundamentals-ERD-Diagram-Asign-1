@@ -1,4 +1,4 @@
-# Witle Academy Data-Fundamentals - ERD-Diagram - Assignment 1
+# Witle Academy Data-Fundamentals: ERD-Diagram - Assignment 1
 
 ## 🗺️ Data-Fundamentals - ERD-Diagram overview:
 ERD Diagram of Witle Online Retail System - Understanding the relationships and database-design, entity-relationship-diagram, relational-diagram and data-modelling.
