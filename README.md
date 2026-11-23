@@ -2,12 +2,12 @@
 ERD Diagram of Witle Online Retail System - Understanding the relationships and database-design, entity-relationship-diagram, relational-diagram and data-modelling.
 
 # CONTENTS
-## 1 What is Cardinality?
-## 2 Entities & Attributes at a Glance
-## 3 What Did I Learn?
-## 4 What Tools Did I Use?
-## 5 Conclusions
-## 6 Insights 
+###### 1 What is Cardinality?
+###### 2 Entities & Attributes at a Glance
+###### 3 What Did I Learn?
+###### 4 What Tools Did I Use?
+###### 5 Conclusions
+###### 6 Insights 
 
 # 1 WHAT IS CARDINALITY?
 Cardinality answers: How many of this can relate to how many of that? It is the numbers on the line between two tables. We read it from left to right, then right to left.1.1 One-to-One (1:1).
