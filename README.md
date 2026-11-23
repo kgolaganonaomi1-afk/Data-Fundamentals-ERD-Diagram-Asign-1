@@ -3,6 +3,8 @@
 ## 🗺️ Data-Fundamentals - ERD-Diagram overview:
 ERD Diagram of Witle Online Retail System - Understanding the relationships and database-design, entity-relationship-diagram, relational-diagram and data-modelling.
 
+![image alt]
+
 # CONTENTS
 ###### 1 What is Cardinality?
 ###### 2 Entities & Attributes at a Glance
